@@ -97,6 +97,7 @@
 
 .bluebutton:hover{
     background-color: #1f3e72;
+    cursor: pointer;
 }
 
 /*Sección 1*/
@@ -467,10 +468,11 @@ footer{
     background-color: rgba(238,243,255,0.8);
 }
 
-footer p{
+footer p, a{
     font-size: 15px;
     font-weight: 600;
     color: gray;
+    text-decoration: none;
 }
 
 .izquierdaF{
@@ -515,6 +517,10 @@ footer p{
     color: gray;
 }
 
+.derechaF table td a:hover{
+    color: rgb(78, 75, 75);
+}
+
 .debajoF{
     width: 100%;
     height: 50px;
@@ -533,7 +539,15 @@ footer p{
     left: 45%;
 }
 
+#p2:hover{
+    color: rgb(78, 75, 75);
+}
+
 #p3{
     position: relative;
     left: 50%;
+}
+
+#p3:hover{
+    color: rgb(78, 75, 75);
 }
