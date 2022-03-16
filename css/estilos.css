@@ -1,0 +1,539 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto',sans-serif;
+    box-sizing:border-box;
+}
+
+/*Universal*/
+.subtitulo{
+    color:#1f3e72;
+    font-size: 30px;
+    font-weight:bold
+}
+
+.texto{
+    color: gray;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+/*Sección de Menú*/
+
+.Menu{
+    height: 90px;
+}
+
+.Menu nav{
+    position: relative;
+    text-align: right;
+    top: 9px;
+    right: 270px;
+}
+
+.Education{
+    text-decoration: none;
+    color:gray;
+    font-size: 15px;
+    margin-left: 35px;
+    font-weight: 510;
+    position: relative;
+    left: 15.4em;
+}
+
+
+.Menu nav div{ /*Sombra menu de lado derecho*/
+    background-color: rgba(238,243,255,0.8);
+    display: flex;
+    position: relative;
+    height: 90px;
+    text-align: left;
+    left: 16.9em;
+    width: 675px;
+    float: right;
+    bottom: 37px;
+}
+
+.Menu nav div a{
+    text-decoration: none;
+    color:gray;
+    font-size: 15px;
+    margin-left: 35px;
+    font-weight: 510;
+    position: relative;
+    right: 35px;
+    top: 37px;
+}
+
+.Menu nav a:hover{
+    color: #2C4CCA;
+}
+
+
+.Menu h1{
+    position: relative;
+    left:180px;
+    top: 30px;
+    color:#2C4CCA ;
+}
+
+.bluebutton{
+    float: right;
+    position: relative;
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    margin-left: 35px;
+    top: 30px;
+    bottom: 9px;
+    right: 30px;
+    width: 120px;
+    height: 35px;
+    background-color: #2c4cca;
+    color: white;
+    font-weight:620;
+    box-shadow: 0px 1px 10px #2c4cca;
+}
+
+.bluebutton:hover{
+    background-color: #1f3e72;
+}
+
+/*Sección 1*/
+.seccionGrande{
+    position: relative;
+    bottom: 22px;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.subDivTexto1{
+    width: 50%;
+    height: 700px;
+}
+
+
+.subDivTexto1 #div1{
+    position: relative;
+    left: 18%;
+    top: 13%
+}
+
+.subDivTexto1 #div1 h1{
+    color:#1f3e72;
+    font-size: 50px;
+    font-weight:bold;
+}
+
+.cajaIconos1{
+    width: 400px;
+    height: 30px;
+    display: flex;
+    position: relative;
+    left: 18%;
+    top: 20%;
+}
+
+.cajaIconos1 i{
+    margin-right: 20px;
+    background-color: #fffae9;
+    width: 19px;
+    height: 19px;
+}
+
+.cajaIconos1 p{
+    color:#1f3e72;
+    font-weight: 600;
+    font-size: 14px;
+    margin-right: 14px;
+}
+
+.cajaIconos2{
+    width: 400px;
+    height: 30px;
+    display: flex;
+    position: relative;
+    left: 18%;
+    top: 38%;
+}
+
+.cajaIconos2 p{
+    color:#1f3e72;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.cajaIconos2 i{
+    margin-right: 12px;
+    margin-top: 2.5px;
+    padding: 1px;
+    background-color: #e9f0fd;
+    width: 19px;
+    height: 19px;
+    box-shadow: 0px 0.5px 3px #2c4cca;   
+}
+
+.cajaIconos3{
+    width: 780px;
+    height: 100px;
+    display: flex;
+    position: relative;
+    left: 24%;
+    top: 40%;
+    background-color: white;
+    box-shadow: 0px 0.5px 5px #2c4cca; 
+}
+
+.cajaIconos3 div{
+    display: flex;
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.cajaIconos3 div h3{
+    margin-left: 10px;
+    font-size: 17px;
+    color: gray;
+}
+
+.cajaIconos3 div p{
+    font-size: 18px;
+    margin-left: 30px;
+    color:#1f3e72;
+    font-weight: 600;
+}
+
+.cajaIconos3 div i{
+    margin-right: 3px;
+    padding: 1px;
+    background-color: #e9f0fd;
+    width: 19px;
+    height: 19px;
+}
+
+.subDivImg1{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 700px;
+    background-image: url("../img/img1.jpg"); 
+    background-size: cover;
+    background-position-x: center;
+}
+
+/*Seccion 2*/
+.laboratorios{
+    width: 100%;
+    display: flex;
+    height: 200px;
+}
+
+.laboratorios div {
+    width: 25%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.3;
+}
+
+.laboratorios div img{
+    max-width: 63%;
+    max-height: 63%;
+    background-position: center;
+   
+}
+
+/*Seccion 3*/
+.cajatexto1{
+    width: 500px;
+    height: 150px;
+    margin-top: 9%;
+    position: relative;
+    bottom: 15%;
+    left: 10%;
+}
+
+.cajaIconos4{   
+    position: relative;
+    left: 14%;
+    bottom: 12%;
+    display: flex;
+}
+
+.cajaIconos4 div{
+    padding: 20px;
+    width: 220px;
+    height: 250px;
+    margin-left: 15px;
+    border: solid 2px #f5f8fd;
+    border-radius: 10px;
+}
+
+.cajaIconos4 div:hover{
+    box-shadow: 0px 3px 5px #2c4cca; 
+}
+
+.cajaIconos4 i{
+    margin-right: 12px;
+    margin-top: 2.5px;
+    background-color: #e9f0fd;
+   
+}
+
+.cajaIconos4 div h3{
+    color:#1f3e72;
+    font-size: 17px;
+    font-weight:bold;
+    margin-top: 13px;
+}
+
+.cajaIconos4 div p{
+    color: gray;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+/*Seccion 4*/
+.subDivImg2{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 700px;
+    background-image: url("../img/img2.png"); 
+    background-size: cover;
+    background-position-x: center;
+}
+
+.cajatexto2{
+    width: 500px;
+    height: 150px;
+    margin-top: 9%;
+    position: relative;
+    bottom: 8%;
+    left: 10%;
+}
+
+.cajaIconos5{
+    position:relative;
+    left: 15%;
+    bottom: 6%;
+}
+
+.cajaIconos5 div{
+    display: flex;
+    padding: 15px;
+    width: 350px;
+    height: auto;
+    margin-bottom: 40px;
+    border: solid 2px #f5f8fd;
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
+
+.cajaIconos5 div:hover{
+    box-shadow: 0px 3px 5px #2c4cca; 
+}
+
+.cajaIconos5 div:hover > h6 {
+    display: block;
+}
+
+.cajaIconos5 div:hover > .arrowd{
+    display: none;
+}
+
+.cajaIconos5 div:hover > .arrowu{
+    visibility: visible;
+}
+
+.cajaIconos5 div p{
+    color:#1f3e72;
+    font-size: 15px;
+    font-weight:bold;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+.cajaIconos5 h6 {
+    margin-top: 10px;
+    color: gray;
+    font-size: 11px;
+    display: none;
+    padding: 12px;
+}
+
+.cajaIconos5 i{
+    background-color: #e9f0fd;
+    padding: 4px;
+}
+
+.arrowd{
+    position: absolute;
+    left: 45%;
+}
+
+.arrowu{
+    position: absolute;
+    left: 45%;
+    visibility: hidden;
+}
+
+/*Seccion 5*/
+
+.subDivImg3{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 700px;
+    background-image: url("../img/img3.png"); 
+    background-size: cover;
+    background-position-x: center;
+}
+
+.cajatexto3{
+    width: 500px;
+    height: 150px;
+    position: relative;
+    left: 16%;
+    top: 15%;
+}
+
+.cajaIconos6{
+    position: relative;
+    top: 20%;
+    left: 15%;
+    width: 480px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: center;
+}
+
+#padre{
+    width: 200px;
+    height:120px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 6px;
+    border: solid 2px #f5f8fd;
+    border-radius: 10px;
+}
+
+#divhijo{
+    width: 100px;
+    height: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+
+.cajaIconos6 i{
+    background-color: #e9f0fd;
+    padding: 4px;
+    width: auto;
+    height: 40px;
+    position: relative;
+    top: 8px;
+    left: 5px;
+}
+
+.cajaIconos6 div div h6{
+    font-size: 15px;
+    font-weight: 600;
+    color:#1f3e72;
+}
+
+.cajaIconos6{
+    font-size:13.5px;
+    color: gray;
+}
+
+/*Footer*/
+
+footer{
+    margin-top: 100px;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(238,243,255,0.8);
+}
+
+footer p{
+    font-size: 15px;
+    font-weight: 600;
+    color: gray;
+}
+
+.izquierdaF{
+    width: 50%;
+    height: 400px;
+}
+
+.izquierdaF div{
+    position: relative;
+    top: 20%;
+    left: 20%;
+}
+
+.izquierdaF div h1{
+    color:#1f3e72 ;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.derechaF{
+    width: 50%;
+    height: 400px;
+}
+
+.derechaF table{
+    text-align: left;
+    position: relative;
+    top:15%;
+    left: 20%;
+    border-collapse: separate;
+	border-spacing: 40px 25px;
+}
+
+.derechaF table th{
+    color:#2C4CCA ;
+    font-size: 18px;
+}
+
+.derechaF table td{
+    font-size: 15px;
+    font-weight: 600;
+    color: gray;
+}
+
+.debajoF{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    padding: 15px;
+    background-color: rgba(238,243,255,0.8);
+}
+
+#p1{
+    position: relative;
+    left: 8%;
+}
+
+#p2{
+    position: relative;
+    left: 45%;
+}
+
+#p3{
+    position: relative;
+    left: 50%;
+}
